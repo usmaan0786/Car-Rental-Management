@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,600&display=swap");
+
+.header .logo {
+  color: rgb(248, 248, 9);
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.header .logo span {
+  letter-spacing: 0.1rem;
+  font-size: 4rem;
+  color: rgb(0, 177, 0);
+}
+.header.logo {
+  border: 1rem solid black;
+  box-shadow: 0 0.5 1rem rgb(54, 54, 54);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .2\slinear;
+}
+body {
+  margin-bottom: 30rem;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  margin: 0px;
+  z-index: 999;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  width: 100%;
+}
+.header .navbar {
+  margin-left: 10rem;
+}
+.header .login-btn{
+  margin-left: 4rem;
+}
+.header .navbar a {
+  border-radius: 1rem;
+  color: black;
+  font-size: 1.7rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.header .navbar a:hover {
+  background: rgb(29, 0, 66);
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background: rgb(255, 255, 0);
+  color: black;
+  font-weight: 500;
+  font-size: 1.7rem;
+  cursor: pointer;
+  padding: 1.3rem;
+  margin-left: 4rem;
+  text-align: center;
+}
+.btn:hover {
+  color: yellow;
+  background: rgb(29, 0, 66);
+  transition: all 0.3s linear;
+}
+
+body {
+  height: 300rem;
+}
+
+/* Login Page */
+
+.login-form-container {
+  position: fixed;
+  height: 100%;
+  background-color: rgb(185, 185, 185);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+.login-form-container form {
+  background: rgb(41, 41, 41);
+  padding: 2rem;
+  margin: 2 rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5 1rem rgb(54, 54, 54);
+  border: 0.1rem solid black;
+  text-align: center;
+  width: 40rem;
+}
+
+.login-form-container form .btn {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.login-form-container form h3 {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.login-form-container form .box {
+  margin: 0.7rem 0;
+  margin: 0.2rem;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+}
+.login-form-container form p {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.login-form-container form p a {
+  color: rgb(255, 255, 0);
+  text-decoration: underline;
+}
+
+/* home */
+.home {
+  padding-top: 10rem;
+  text-align: center;
+  overflow-x: hidden;
+}
+.home h1 {
+  padding: 2rem;
+  color: rgb(29, 0, 66);
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+.home img {
+  padding-top: 2rem 9%;
+  width: 90%;
+}
+
+/* icons */
+
+.icon-container {
+  padding-top: 5rem;
+  padding-bottom: 5 rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+  background: white;
+}
+
+.icon-container .icons {
+  margin: 1rem;
+  color: white;
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: rgb(29, 0, 66);
+  box-shadow: 0 0.5 1rem rgb(0, 0, 0);
+  border-radius: 1rem;
+  border: 0.1rem solid yellow;
+}
+.icon-container .icons .content h3 {
+  color: yellow;
+  font-size: 3rem;
+}
+.icon-container .icons:hover {
+  background: rgb(255, 255, 255);
+  border: 0.1rem solid black;
+}
+.icon-container .icons:hover h3 {
+  color: rgb(29, 0, 66);
+}
+.icon-container .icons:hover p {
+  color: rgb(48, 48, 48);
+}
+
+.icon-container .icons .content p {
+  font-size: 1.5rem;
+}
+
+.heading {
+  font-size: 4rem;
+  color: rgb(29, 0, 66);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.heading span {
+  position: relative;
+  z-index: 0;
+}
+.vehicles .vehicles-slider {
+  padding-bottom: 3rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 10rem;
+}
+.vehicles .vehicles-slider .box {
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(0.1rem solid rgb(104, 104, 104));
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 1rem;
+}
+.vehicles img {
+  width: 100%;
+  height: 45%;
+}
+.vehicles .vehicles-slider .box .content {
+  padding-top: 1rem;
+}
+.vehicles .vehicles-slider .box h3 {
+  font-size: 2.5rem;
+  color: rgb(29, 0, 66);
+}
+.vehicles .vehicles-slider .box .content .prize {
+  font-size: 2.5rem;
+  color: rgb(231, 231, 0);
+  padding: 1rem 0;
+  font-weight: bolder;
+}
+.vehicles .vehicles-slider .box .content .prize span {
+  font-size: 1.7rem;
+  color: rgb(56, 56, 56);
+  font-weight: normal;
+}
+.vehicles .vehicles-slider .box .content p {
+  font-size: 1.4rem;
+  color: rgb(56, 56, 56);
+  padding: 1rem;
+  padding-top: 1.5rem;
+  border-top: 0.1rem solid rgb(29, 0, 66);
+}
+.vehicles .vehicles-slider .box .content p span {
+  color: var(yellow);
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+}
+.vehicles .vehicles-slider .box .content .btn {
+  text-align: center;
+}
+.vehicles .vehicles-slider .box:hover {
+  background: rgb(29, 0, 66);
+  border: 0.1rem solid yellow;
+}
+.vehicles .vehicles-slider .box:hover h3 {
+  color: white;
+}
+.vehicles .vehicles-slider .box:hover .content span {
+  color: white;
+}
+.vehicles .vehicles-slider .box:hover .content p {
+  color: white;
+}
+
+.services .box-container {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 10rem;
+}
+.services .box-container .box {
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(0.1rem solid rgb(104, 104, 104));
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 1rem;
+}
+.services .box-container h3 {
+  color: rgb(29, 0, 66);
+  font-size: 2.2rem;
+}
+.services .box-container p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  color: rgb(37, 37, 37);
+  font-weight: bold;
+}
+.services .box-container .box:hover {
+  background: rgb(29, 0, 66);
+  border: 0.1rem solid yellow;
+}
+.services .box-container .box:hover h3 {
+  color: white;
+}
+.services .box-container .box:hover p {
+  color: white;
+}
+
+.newsletter {
+  padding: 6rem 2rem;
+  text-align: center;
+  background-image: url("letter-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.newsletter h3 {
+  font-size: 4rem;
+  color: rgb(29, 0, 66);
+}
+.newsletter p {
+  color: rgb(66, 66, 66);
+  font-size: 1.5rem;
+}
+
+.newsletter form {
+  margin: 1rem auto;
+  max-width: 60rem;
+  height: 5rem;
+  display: flex;
+  box-shadow: var(0.1rem solid rgb(104, 104, 104));
+  overflow: hidden;
+  border-radius: 5rem;
+}
+.newsletter form input[type="email"] {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: var(rgb(49, 49, 49));
+  padding: 0 2rem;
+}
+.newsletter form input[type="submit"] {
+  height: 100%;
+  width: 50%;
+  font-size: 1.6rem;
+  color: var(rgb(49, 49, 49));
+  background: yellow;
+  cursor: pointer;
+}
+.newsletter form input[type="submit"]:hover {
+  background: rgb(29, 0, 66);
+  color: yellow;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact .row .map {
+  border-radius: 1rem;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(0.1rem solid rgb(104, 104, 104));
+}
+
+.contact .row form {
+  background: rgb(247, 247, 247);
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5 1rem rgb(54, 54, 54);
+  border: 0.1rem solid black;
+  text-align: center;
+  width: 40%;
+}
+.contact .row form .box {
+  margin: 0.7rem 0;
+  width: 100%;
+  border: 0.1rem solid rgb(255, 255, 255);
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: black;
+  text-transform: none;
+  border-radius: 1rem;
+}
+.contact .row form h3 {
+  color: rgb(56, 56, 56);
+  font-size: 3rem;
+}
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.car_reg {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.car_reg form {
+  background: rgb(41, 41, 41);
+  padding: 2rem;
+  margin: 2 rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5 1rem rgb(54, 54, 54);
+  border: 0.1rem solid black;
+  text-align: center;
+  width: 55rem;
+}
+
+.car_reg form .btn {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.car_reg form h3 {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.car_reg form .box {
+  margin: 0.7rem 0;
+  margin: 0.2rem;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+}
+.car_reg form p,
+#choose {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: rgb(255, 230, 0);
+  position: relative;
+  display: inline-block;
+  width: max-content;
+}
+.car_reg form p {
+  margin-right: 3.5rem;
+}
+.car_reg form #choose {
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(255, 255, 255);
+}
+.car_reg form #choose {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: right;
+  display: inline-flex;
+}
+.footer {
+  background: rgb(36, 36, 36);
+  color: white;
+  padding: 6rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.footer span {
+  color: yellow;
+}
