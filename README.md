@@ -1,5 +1,7 @@
 # Car-Rental-Management
 
+A car rental management system is a software application that helps car rental companies manage their operations, including vehicle reservations, rental agreements, customer information, inventory management, and financial reporting. The system automates many manual processes involved in car rental operations, providing a streamlined and efficient way to manage the rental process from start to finish. It typically includes features such as online reservations, real-time vehicle tracking, automated billing, and customizable reporting. The system is designed to help rental companies manage their fleets, improve customer service, increase operational efficiency, and ultimately, maximize revenue.
+
 ![1](https://user-images.githubusercontent.com/72275107/235188254-6cbda194-8086-4316-83ca-74b6560e9411.png)
 ![2](https://user-images.githubusercontent.com/72275107/235188258-041780f0-ab6f-41c7-b547-ce5592ea97c2.png)
 ![3](https://user-images.githubusercontent.com/72275107/235188259-0f5f695d-e4ec-4b22-b85b-22fda034c1d1.png)
